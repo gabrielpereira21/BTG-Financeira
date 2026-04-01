@@ -1,0 +1,52 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Publicação
+publish/
+
+# Cache
+*.cache
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IIS / Azure
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# Banco de dados local
+*.mdf
+*.ldf
+
+# Arquivos de configuração sensíveis
+appsettings.Development.json
+
+# Outros
+node_modules/
+wwwroot/lib/

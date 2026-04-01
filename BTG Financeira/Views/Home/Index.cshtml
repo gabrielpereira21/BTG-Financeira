@@ -1,0 +1,924 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTG Financeira - Crédito Rápido</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- RESET E VARIÁVEIS --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif; /* Fonte mais moderna igual da VIP */
+        }
+
+        :root {
+            --bg-dark: #0f0f0f; /* Fundo quase preto */
+            --bg-card: #1a1a1a;
+            --gold-primary: #d4af37; /* Dourado Premium */
+            --gold-hover: #b59020;
+            --whatsapp-green: #25D366;
+            --text-light: #ffffff;
+            --text-gray: #b3b3b3;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            padding-top: 80px; /* Espaço para o header fixo */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* --- HEADER --- */
+        .header {
+            /* Diminuímos o 15px para 8px para achatar a barra */
+            padding: 5px 0 !important;
+            background-color: rgba(87, 86, 80, 0.8) !important; /* Sua cor cinza transparente */
+            position: fixed !important;
+            top: 0 !important;
+            width: 100% !important;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Linha sutil igual a da VIP */
+        }
+
+            .header .container {
+                max-width: 100%; /* Aumenta o espaço interno para 95% da tela */
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+        .nav-menu {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            align-items: center;
+        }
+
+            .nav-menu a {
+                text-decoration: none;
+                color: var(--text-light);
+                font-weight: 500;
+                font-size: 0.95rem;
+                transition: 0.3s;
+            }
+
+                .nav-menu a:hover {
+                    color: var(--gold-primary);
+                }
+
+        .btn-vip-header {
+            background: linear-gradient(45deg, var(--whatsapp-green), #1ebc57);
+            padding: 10px 25px;
+            border-radius: 50px;
+            color: white !important;
+            font-weight: 700 !important;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+            .btn-vip-header:hover {
+                transform: translateY(-2px);
+            }
+
+        /* Menu Mobile Toggle */
+        .hamburger {
+            display: none;
+            font-size: 1.5rem;
+            color: var(--gold-primary);
+            cursor: pointer;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            min-height: 85vh; /* Mais alto para impacto */
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .hero .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                gap: 50px;
+            }
+
+        .tag-vip {
+            border: 1px solid var(--gold-primary);
+            color: var(--gold-primary);
+            padding: 5px 20px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 25px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+            .hero h1 span {
+                color: var(--gold-primary);
+            }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-gray);
+            margin-bottom: 35px;
+            max-width: 90%;
+            line-height: 1.6;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background-color: var(--gold-primary);
+            color: #000;
+            padding: 15px 35px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+            .btn-primary:hover {
+                background-color: var(--gold-hover);
+                transform: scale(1.05);
+            }
+
+        .btn-secondary {
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+            .btn-secondary:hover {
+                border-color: var(--gold-primary);
+                color: var(--gold-primary);
+            }
+
+        /* Imagem e Efeito Glow */
+        .hero-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+            .hero-image img {
+                width: 100%;
+                max-width: 500px;
+                position: relative;
+                z-index: 2;
+                /* Se a imagem não tiver fundo transparente, isso ajuda a integrar */
+                filter: drop-shadow(0 0 20px rgba(0,0,0,0.5));
+            }
+
+        /* O círculo dourado de fundo */
+        .glow-effect {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(212,175,55,0.4) 0%, rgba(15,15,15,0) 70%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            filter: blur(40px);
+            animation: pulse 3s infinite ease-in-out;
+        }
+
+
+        /* --- SIMULADOR --- */
+        .simulador-section {
+            padding: 0 0 80px 0;
+            margin-top: -50px; /* Sobe um pouco pra cima da hero */
+            position: relative;
+            z-index: 10;
+        }
+
+        .simulador-box {
+            background: #1e1e1e;
+            padding: 3rem;
+            border-radius: 20px;
+            border: 1px solid #333;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+            .simulador-box h3 {
+                text-align: center;
+                margin-bottom: 10px;
+                font-size: 1.8rem;
+                color: var(--gold-primary);
+            }
+
+            .simulador-box p {
+                text-align: center;
+                color: var(--text-gray);
+                margin-bottom: 30px;
+            }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .full-width {
+            grid-column: span 2;
+        }
+
+        .simulador input {
+            padding: 18px;
+            background: #2a2a2a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            width: 100%;
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: 0.3s;
+        }
+
+            .simulador input:focus {
+                border-color: var(--gold-primary);
+                background: #333;
+            }
+
+        .btn-enviar {
+            background-color: var(--whatsapp-green);
+            color: white;
+            width: 100%;
+            padding: 18px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+            .btn-enviar:hover {
+                background-color: #1ebc57;
+                box-shadow: 0 0 20px rgba(37, 211, 102, 0.4);
+            }
+
+        /* --- CARROSSEL VIP --- */
+        .vip-carousel-section {
+            padding: 80px 0;
+            background-color: #0a0a0a;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+            .section-title h2 {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            .section-title span {
+                color: var(--gold-primary);
+            }
+
+        .swiper-slide {
+            background: var(--bg-card);
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid #333;
+            transition: 0.3s;
+            height: auto; /* Altura igual */
+        }
+
+            .swiper-slide:hover {
+                border-color: var(--gold-primary);
+                transform: translateY(-10px);
+            }
+
+            .swiper-slide i {
+                font-size: 40px;
+                color: var(--gold-primary);
+                margin-bottom: 25px;
+            }
+
+            .swiper-slide h3 {
+                font-size: 1.3rem;
+                margin-bottom: 15px;
+            }
+
+            .swiper-slide p {
+                color: var(--text-gray);
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+
+        .swiper-pagination-bullet-active {
+            background: var(--gold-primary) !important;
+        }
+
+        /* --- RESPONSIVIDADE --- */
+        @@media (max-width: 992px) {
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-image {
+                margin-top: 40px;
+            }
+
+            .glow-effect {
+                width: 300px;
+                height: 300px;
+            }
+            /* Menu Mobile */
+            .hamburger {
+                display: block;
+            }
+
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background-color: #111;
+                width: 100%;
+                padding: 20px 0;
+                transition: 0.3s;
+                border-bottom: 1px solid #333;
+            }
+
+                .nav-menu.active {
+                    left: 0;
+                }
+        }
+
+        @@media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .full-width {
+                grid-column: span 1;
+            }
+
+            .simulador-box {
+                padding: 1.5rem;
+            }
+        }
+        /* --- FOOTER --- */
+        .footer {
+            background-color: #050505; /* Mais escuro que o resto */
+            padding-top: 70px;
+            border-top: 1px solid #222;
+            color: #b3b3b3;
+            font-size: 0.95rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-logo {
+            height: 50px;
+            margin-bottom: 20px;
+            filter: grayscale(100%) brightness(200%); /* Deixa logo branca/cinza */
+            transition: 0.3s;
+        }
+
+            .footer-logo:hover {
+                filter: none; /* Volta a cor original ao passar o mouse */
+            }
+
+        .footer-col h3 {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+            /* Detalhe dourado embaixo do título */
+            .footer-col h3::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 50px;
+                height: 2px;
+                background-color: var(--gold-primary);
+            }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+            .footer-col ul li {
+                margin-bottom: 12px;
+            }
+
+                .footer-col ul li a {
+                    color: #b3b3b3;
+                    text-decoration: none;
+                    transition: 0.3s;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                }
+
+                    .footer-col ul li a i {
+                        font-size: 0.8rem;
+                        color: var(--gold-primary);
+                    }
+
+                    .footer-col ul li a:hover {
+                        color: var(--gold-primary);
+                        padding-left: 5px; /* Efeito de deslizar */
+                    }
+
+        .contact-list li {
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+
+        .contact-list i {
+            color: var(--gold-primary);
+            margin-top: 5px;
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+            .social-links a {
+                width: 40px;
+                height: 40px;
+                background-color: #1a1a1a;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                text-decoration: none;
+                transition: 0.3s;
+                border: 1px solid #333;
+            }
+
+                .social-links a:hover {
+                    background-color: var(--gold-primary);
+                    border-color: var(--gold-primary);
+                    color: #000;
+                }
+
+        /* Aviso Legal */
+        .footer-legal {
+            background-color: #0f0f0f;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #222;
+            text-align: center;
+            font-size: 0.85rem;
+            margin-bottom: 30px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #1a1a1a;
+            padding: 25px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* --- SEÇÃO DE SERVIÇOS --- */
+        .services-section {
+            padding: 80px 0;
+            background-color: var(--bg-dark);
+        }
+
+        .services-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+            .services-header h2 {
+                color: var(--gold-primary);
+                font-size: 2.2rem;
+                font-weight: 700;
+            }
+
+        .carousel-controls {
+            display: flex;
+            gap: 15px;
+        }
+
+            .carousel-controls button {
+                background: transparent;
+                border: 1px solid var(--gold-primary);
+                color: var(--gold-primary);
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+                .carousel-controls button:hover {
+                    background: var(--gold-primary);
+                    color: #000;
+                }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .service-card {
+            background-color: #262626;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+            .service-card:hover {
+                transform: translateY(-10px);
+            }
+
+        .card-image img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+            .card-content h3 {
+                color: #fff;
+                font-size: 1.4rem;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+
+            .card-content p {
+                color: #b3b3b3;
+                font-size: 0.95rem;
+                line-height: 1.6;
+                margin-bottom: 25px;
+            }
+
+        .btn-more {
+            color: var(--gold-primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: 0.3s;
+        }
+
+            .btn-more:hover {
+                gap: 12px;
+                filter: brightness(1.2);
+            }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="/images/btglogo.png" alt="BTG Financeira" style="height: 70px;">
+            </div>
+
+            <nav>
+                <i class="fas fa-bars hamburger" onclick="toggleMenu()"></i>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=5511943420915" class="btn-vip-header" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Fale Agora
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <span class="tag-vip"><i class="fas fa-star"></i> Excelência em Crédito</span>
+                <h1>O crédito que você precisa, <span>sem burocracia.</span></h1>
+                <p>Especialistas em realizar sonhos. Taxas justas, atendimento premium e dinheiro na conta com agilidade.</p>
+
+                <div class="hero-buttons">
+                    <a href="#simulador" class="btn-primary">
+                        Simular Agora <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5511948438513" class="btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Atendimento Humano
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="glow-effect"></div>
+                <img src="/images/barbara1.png" alt="Atendente BTG">
+            </div>
+        </div>
+    </section>
+
+    <section class="simulador-section" id="simulador">
+        <div class="container">
+            <div class="simulador-box">
+                <h3><i class="fas fa-calculator"></i> Simulação Gratuita</h3>
+                <p>Preencha os dados abaixo e receba uma proposta personalizada no seu WhatsApp.</p>
+
+                <form id="meuFormulario" class="simulador">
+                    <div class="form-grid">
+                        <input type="text" id="cliente_nome" placeholder="Nome Completo" required class="full-width">
+                        <input type="text" id="cliente_cpf" placeholder="CPF (Opcional)">
+                        <input type="text" id="cliente_whatsapp" placeholder="Seu WhatsApp" required>
+                        <input type="text" id="cliente_valor" placeholder="Valor Desejado (R$)" required class="full-width">
+                    </div>
+                    <button type="button" class="btn-enviar" onclick="enviarParaWhatsapp()">
+                        SOLICITAR ANÁLISE NO WHATSAPP <i class="fab fa-whatsapp"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="vip-carousel-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Por que escolher a <span>BTG?</span></h2>
+            </div>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Rapidez</h3>
+                        <p>Aprovação acelerada para você não perder tempo. Dinheiro na conta em poucas horas.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>Seus dados protegidos com a mais alta tecnologia de criptografia do mercado.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-headset"></i>
+                        <h3>Suporte VIP</h3>
+                        <p>Equipe dedicada para tirar todas as suas dúvidas durante todo o processo.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-percentage"></i>
+                        <h3>Melhores Taxas</h3>
+                        <p>Negociamos as melhores condições do mercado para o seu perfil.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services-section">
+        <div class="container">
+            <div class="services-header">
+                <h2>Nossos serviços</h2>
+                <div class="carousel-controls">
+                    <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-image">
+                        <img src="/images/celular.jpg" alt="Antecipação FGTS">
+                    </div>
+                    <div class="card-content">
+                        <h3>Antecipação do FGTS</h3>
+                        <p>Antecipe seu FGTS com condições especiais e conquiste mais liberdade financeira. Use seu benefício para realizar planos ou quitar dívidas.</p>
+                        <a href="https://wa.me/5511948438513" class="btn-more">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-image">
+                        <img src="/images/sorrindo.jpg" alt="Crédito Consignado">
+                    </div>
+                    <div class="card-content">
+                        <h3>Crédito Consignado</h3>
+                        <p>Trabalhamos para ajudar mais pessoas como você a ter uma vida melhor a partir do crédito consignado. Conquiste uma folga financeira!</p>
+                        <a href="https://wa.me/5511948438513" class="btn-more">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-image">
+                        <img src="/images/clt.jpg" alt="Consignado para CLT">
+                    </div>
+                    <div class="card-content">
+                        <h3>Consignado para CLT</h3>
+                        <p>Empréstimo exclusivo para trabalhadores CLT, com taxas menores do que os demais empréstimos e aprovação ainda mais fácil.</p>
+                        <a href="https://wa.me/5511948438513" class="btn-more">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-col">
+                    <img src="/images/btglogo.png" alt="BTG Financeira" class="footer-logo">
+                    <p>Referência em crédito consignado e soluções financeiras. Trabalhamos com transparência para realizar seus sonhos.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/btgfinanceira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/btg-assessoria-financeira/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Início</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Quem Somos</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5511948438513"><i class="fas fa-chevron-right"></i> Empréstimo Consignado</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5511948438513"><i class="fas fa-chevron-right"></i> Antecipação FGTS</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Fale Conosco</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo - SP<br>Atendimento em todo Brasil</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <span>(11) 95659-6256 </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>barbaratauro@btgconsig.com.br</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Seg a Sex: 09h às 18h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-legal">
+                <p><strong>Atenção:</strong> A BTG Financeira não solicita depósitos antecipados para liberação de crédito. A aprovação está sujeita a análise de crédito e margem consignável.</p>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 BTG Financeira. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Configuração do Carrossel
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: { el: '.swiper-pagination', clickable: true },
+            breakpoints: {
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 }
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            }
+        });
+
+        // Toggle Menu Mobile
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+
+        // Função de Envio WhatsApp Melhorada
+        function enviarParaWhatsapp() {
+            const nome = document.getElementById('cliente_nome').value;
+            const cpf = document.getElementById('cliente_cpf').value;
+            const whats = document.getElementById('cliente_whatsapp').value;
+            const valor = document.getElementById('cliente_valor').value;
+
+            if(!nome || !whats || !valor) {
+                alert("Por favor, preencha os campos obrigatórios.");
+                return;
+            }
+
+            // Formatação bonita para o WhatsApp
+            const msg = `*NOVA SIMULAÇÃO DO SITE*%0A%0A` +
+                        `👤 *Nome:* ${nome}%0A` +
+                        `📄 *CPF:* ${cpf || 'Não informado'}%0A` +
+                        `📱 *WhatsApp:* ${whats}%0A` +
+                        `💰 *Valor Desejado:* ${valor}%0A%0A` +
+                        `_Aguardo o retorno de um consultor._`;
+
+            window.open(`https://api.whatsapp.com/send?phone=5511943420915&text=${msg}`, '_blank');
+        }
+
+        // Máscaras de Input (Simples)
+        document.getElementById('cliente_whatsapp').addEventListener('input', function(e) {
+            let v = e.target.value.replace(/\D/g, "");
+            v = v.replace(/^(\d{2})(\d)/g, "($1) $2");
+            v = v.replace(/(\d)(\d{4})$/, "$1-$2");
+            e.target.value = v;
+        });
+
+        document.getElementById('cliente_valor').addEventListener('input', function(e) {
+            let v = e.target.value.replace(/\D/g, "");
+            v = (v/100).toFixed(2) + '';
+            v = v.replace(".", ",");
+            v = v.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
+            e.target.value = "R$ " + v;
+        });
+    </script>
+</body>
+</html>

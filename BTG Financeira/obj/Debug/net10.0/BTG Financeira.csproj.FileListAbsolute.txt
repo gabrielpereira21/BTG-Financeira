@@ -1,0 +1,99 @@
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\appsettings.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.staticwebassets.runtime.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.staticwebassets.endpoints.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.exe
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.deps.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.runtimeconfig.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net10.0\BTG Financeira.pdb
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.AssemblyInfoInputs.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.AssemblyInfo.cs
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.RazorAssemblyInfo.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.RazorAssemblyInfo.cs
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\scopedcss\bundle\BTG Financeira.styles.css
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\scopedcss\projectbundle\BTG Financeira.bundle.scp.css
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\f0q9sbeqmf-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\xqql4wey5j-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\gz3d0vasjb-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\tweg75h4a7-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\psiu323e2n-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\ig4cebxr7l-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\ruztfosq4l-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\8odbzj9jjr-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\f7z7g4auan-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\u4rfv7h16o-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\h208kuecu1-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\n0y6f1ur0b-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\zf0w7o4c4w-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\5zjxat4bct-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\zgjvuk1l39-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\ikqrsm7usl-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\4jmcub1hib-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\5x7hoysw9g-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\a4qldywhz2-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\o7v2285592-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\qz53d1znft-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\x2qdwpa4dg-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\c5dhk7u08h-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\qzem0x3w61-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\txxjbpq9jk-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\1zz0ckbdpw-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\07go5a9sb9-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\zixdtitmpq-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\hojrh60xkn-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\6f0aavdpd2-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\j4zcjflmf3-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\owcm7bopkl-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\m1wafstboa-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\i9u1y597zc-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\q4l2vs2fka-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\h9yvoxhn0o-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\7zva9ghstn-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\3o9zmvr4wu-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\mhg374xt6k-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\sf9sc9a4n9-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\tidgur1obr-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\cq4whtucpo-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\hohun393vl-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\7rdiltkifn-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\sep3vlvgkj-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\k1b4dfykdr-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\48tauufpoa-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\9u1zfsbl8o-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\e6gm919rig-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\w7d8cl9g81-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\qa77rgwiur-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\hgei9y8p2z-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\zzuy1pqcyx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\22ow86dz01-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\7swr7w2gy1-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\u4pqcz3f15-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\eex8c6p8cz-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\e0x2uwtknk-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\1oorebpkjt-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\zdrh7nc4gs-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\42r7su2o9u-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\ry6y2lji45-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\vsto9ns5tc-{0}-zbl3amr9va-zbl3amr9va.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\pjhoix2alm-{0}-zbl3amr9va-zbl3amr9va.gz
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\refint\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.pdb
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\BTG Financeira.genruntimeconfig.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\ref\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net10.0\compressed\m2d6sq5utd-{0}-fyil05ez3b-fyil05ez3b.gz

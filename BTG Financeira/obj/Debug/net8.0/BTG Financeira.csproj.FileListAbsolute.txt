@@ -1,0 +1,34 @@
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.AssemblyInfoInputs.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.AssemblyInfo.cs
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.RazorAssemblyInfo.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.RazorAssemblyInfo.cs
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\appsettings.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.staticwebassets.runtime.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.staticwebassets.endpoints.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.exe
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.deps.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.runtimeconfig.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\bin\Debug\net8.0\BTG Financeira.pdb
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\scopedcss\bundle\BTG Financeira.styles.css
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\scopedcss\projectbundle\BTG Financeira.bundle.scp.css
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\refint\BTG Financeira.dll
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.pdb
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\BTG Financeira.genruntimeconfig.cache
+C:\Users\Gabriel-TCI\source\repos\BTG Financeira\BTG Financeira\obj\Debug\net8.0\ref\BTG Financeira.dll
